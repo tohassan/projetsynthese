@@ -1,5 +1,6 @@
 [core]
     no_scm = True
     remote = remoteprjdrive
+    autostage = true
 ['remote "remoteprjdrive"']
     url = gdrive://1JaF2upyr7iHP9GnWEFt-ixn5efqd2054/testmetrics
