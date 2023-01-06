@@ -1,0 +1,15 @@
+stages:
+  etape_01_telechager_donnees:
+    cmd: pip install -r requirements.txt >>/tmp/requirements_install.log
+  etape_03_evaluer_model:
+    cmd: python 01_prod_regression_ci__tutorial.py
+  etape_04_ecrire_metriques:
+    cmd: cat metrics.txt >> a57_perf_report.txt
+  etape_05_dvc_commit_metriques:
+    cmd: /bin/bash 05_dvc_commit.sh
+  etape_06_fetch:
+    cmd: dvc fetch
+  etape_07_archiver_metriques:
+    cmd: /bin/bash 06_dvc_push.sh
+  etape_08_fin:
+    cmd: python 07_fin.py

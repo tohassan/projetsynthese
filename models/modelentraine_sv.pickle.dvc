@@ -1,0 +1,4 @@
+outs:
+- md5: abdbb0e456b16671f6808dea55857e89
+  size: 2550309
+  path: modelentraine_sv.pickle

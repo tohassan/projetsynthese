@@ -1,0 +1,3 @@
+cd ~/predictivemaintenance/src/d_app_serving
+python gg_serving_app.py prod
+

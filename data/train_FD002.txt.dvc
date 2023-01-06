@@ -1,0 +1,4 @@
+outs:
+- md5: b6eaab2a6b589e5e41d43ca2f99e379b
+  size: 9082480
+  path: train_FD002.txt

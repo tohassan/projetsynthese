@@ -1,0 +1,4 @@
+outs:
+- md5: 19735cf97508395dd2b5ddaf69156d1c
+  size: 817
+  path: modelentraine_lr.pickle

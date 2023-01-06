@@ -1,0 +1,4 @@
+outs:
+- md5: 345ff5dbe1705275a6cfe82eefa25b8e
+  size: 489
+  path: modelentraine_pftr.pickle

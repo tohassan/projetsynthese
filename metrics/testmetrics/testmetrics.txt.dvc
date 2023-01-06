@@ -1,0 +1,4 @@
+outs:
+- md5: e88e745ab7ac314b728d5d2bf570ff61
+  size: 370
+  path: testmetrics.txt
